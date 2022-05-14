@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply transition-all duration-150 ease-out cursor-pointer h-7 hover:scale-125;
+  }
+  .btn-icon {
+    @apply font-light transition-all duration-150 ease-out cursor-pointer h-7 hover:scale-125;
+  }
+}
+
+svg path {
+  stroke-width: 1.5;
+}
