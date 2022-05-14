@@ -17,13 +17,6 @@ function Header() {
         <div className="flex items-center ">
           <img src="https://links.papareact.com/ocw" className="h-10" />
         </div>
-        {/* <div className="relative flex-shrink-0 w-10 cursor-pointer md:hidden">
-          <Image
-            src="https://links.papareact.com/jjm"
-            layout="fill"
-            objectFit="contain"
-          />
-        </div> */}
         <div className="hidden max-w-xs md:inline-block">
           <div className="relative p-3 rounded-md">
             <div className="absolute inset-y-0 flex items-center pl-3 pointer-events-none">
